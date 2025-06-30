@@ -1,0 +1,103 @@
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    background: linear-gradient(120deg, #ffe0ec, #ffe6f7);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #f8a0c4;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/29/29302.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.header .logo, .header .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 60px; /* 本のアイコンの右に空間 */
+}
+
+.main-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px #f3b4d7;
+}
+
+.form-title {
+    text-align: center;
+    color: #e75b9b;
+}
+
+.form-subtitle {
+    text-align: center;
+    color: #cc3c85;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #b9246c;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #f7b2d5;
+    border-radius: 10px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-input:focus, .form-textarea:focus {
+    border-color: #e75b9b;
+    outline: none;
+    box-shadow: 0 0 5px #e75b9b;
+}
+
+.submit-btn {
+    background: #e75b9b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #cc3c85;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255,255,255,0.6);
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #f3b4d7;
+}
